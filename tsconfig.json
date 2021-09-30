@@ -1,0 +1,54 @@
+/*
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: Benjamin Chiu
+ * @Date: 2021-09-09 16:15:45
+ * @LastEditors: Benjamin Chiu
+ * @LastEditTime: 2021-09-11 11:44:37
+ */
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "noFallthroughCasesInSwitch": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+       "paths": {
+        "@/*": ["src/*"],
+        "@@/*": ["src/.umi/*"]
+      }
+    },
+    "include": [
+      "mock/**/*",
+      "src/**/*",
+      "tests/**/*",
+      "test/**/*",
+      "__test__/**/*",
+      "typings/**/*",
+      "config/**/*",
+      ".eslintrc.js",
+      ".stylelintrc.js",
+      ".prettierrc.js",
+      "jest.config.js",
+      "mock/*"
+    ],
+    "exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"]
+  }
+  
